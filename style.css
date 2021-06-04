@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+.container{
+    width: 80%;
+    margin:  0 auto;
+}
+
+button {
+	padding: 0.4rem 1.6rem;
+	border: none;
+	font-size: 14px;
+	font-weight: 400;
+	background: var(--primary);
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 3px;
+}
+
+:root{
+    --primary : #FF4690;
+    --secondary : #111111;
+    --text : dimgray;
+}
+
+
+/* Welcome Area start here */
+.welcome-area{
+    padding: 2.5rem 0rem;
+    background: url(images/header-bg.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.welcome-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.welcome-text h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: var(--secondary);
+}
+
+.welcome-text h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: var(--primary);
+    margin:  1rem 0;
+}
+
+.welcome-text p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text);
+    margin-bottom: 0.8rem;
+}
+
+.welcome-img {
+    width: 50%;
+}
+.welcome-text{
+    width: 50%;
+}
+
+
+/* Welcome Area ends here */
+
+/* Biography Area Start Here */
+    .biography-area{
+        padding: 2.5rem 0rem;
+        background: url(images/biography-bg.png) center center no-repeat;
+        background-size: cover;
+    }
+
+    .biography-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .biography-img{
+        width: 50%;
+    }
+
+    .biography-text{
+        width: 50%;
+        padding: 2.5rem;
+        
+    }
+    .biography-text h1{
+        font-size: 2.5rem;
+        font-weight: 400;
+        letter-spacing: 2px;
+        color: var(--secondary);
+        margin:  1rem 0;
+    }
+    .biography-text p{
+        font-size: 1rem;
+        font-weight: 400;
+        color: var(--text);
+        margin-bottom: 0.8rem;
+    }
+/* Biography Area Ends Here */
+
+
+/* Work Area Start here */
+
+.work-area{
+    padding: 2.5rem 0rem;
+    background: url(images/latest-work-bg.png);
+    background-position: center ;
+    background-size: cover;
+}
+
+.work-title{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: var(--secondary);
+    margin:  1rem 0;
+}
+
+.work-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.work-item{
+    margin: 1rem;
+}
+/* Work Area Ends here */
+
+/* Testimonial Area start  Here */
+.testimonial-area{
+    padding: 2.5rem 0rem;
+    background: url(images/footer-bg.png);
+    background-position: left left ;
+    background-size: cover;
+}
+.testimonial{
+    text-align: center;
+}
+.test-item{
+    padding: 2rem 0rem;
+}
+.test-item h3{
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--secondary);
+    margin: 0.3rem 0rem;
+}
+
+.position {
+	font-size: 13px;
+	font-weight: 500;
+	color: var(--text);
+	margin-bottom: 0.4rem;
+}
+
+.client-say {
+	width: 50%;
+	margin: 0 auto;
+	font-size: 14px;
+	color: var(--secondary);
+}
+
+.email-box{
+    border-radius: 5px;
+    width: 50%;
+    margin:  0 auto;
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    background-color: var(--primary);
+    color: #fff;
+}
+
+.email-box p{
+    font-size: 12px;
+    margin-bottom: 0.8rem;
+    font-weight: 400;
+}
+
+.email-box h4{
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+/* Testimonial Area Ends  Here */
+
+
+/* Footer Area Start here */
+
+
+.footer{
+   padding-top: 4rem;
+    text-align: center;
+}
+.footer p{
+    text-align: center;
+    color: var(--text);
+    font-size: 14px;
+}
+/* Footer Area Ends here */

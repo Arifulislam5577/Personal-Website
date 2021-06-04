@@ -1,0 +1,72 @@
+@media (max-width:768px){
+   
+    .welcome-text{
+        width: 100%;
+        padding: 2.5rem;
+    }
+
+    .biography-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       
+    }
+
+    .biography-text{
+        width: 100%;
+        padding: 2.5rem;
+    }
+
+    .biography-text h1,
+    .welcome-text h1,
+    .work-title{
+        font-size: 1.8rem;
+    }
+
+    .biography-text p,
+    .welcome-text p{
+        font-size: 13px;
+    }
+
+    button{
+        font-size: 13px;
+    }
+
+    
+
+    .email-box,
+    .client-say{
+        width: 70%;
+    }
+}
+
+
+@media (max-width:576px){
+    .welcome-wrapper,
+    .biography-wrapper{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+    }
+
+     .work-wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .biography-wrapper{
+        flex-direction: column-reverse;
+    }
+
+    .email-box,
+    .client-say{
+        width: 100%;
+    }
+
+    .email-box h4{
+        font-size: 1rem;
+    }
+}
